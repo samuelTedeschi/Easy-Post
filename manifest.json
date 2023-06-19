@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Easy Post",
+    "version": "1.0",
+    "description": "Crie seu pôster para o twitter com a ajuda da API da OpenAI.",
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "permissions": ["activeTab", "https://api.openai.com/*"],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }

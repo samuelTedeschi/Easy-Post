@@ -1,0 +1,88 @@
+body {
+  width: 400px;
+  border: none;
+  background: rgb(3, 1, 39);
+  background: linear-gradient(
+    180deg,
+    rgba(3, 1, 39, 0.9837184873949579) 30%,
+    rgba(2, 12, 133, 0.7456232492997199) 60%,
+    rgba(0, 107, 204, 0.6531862745098039) 90%
+  );
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+p {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+input {
+  margin: auto;
+  display: block;
+  width: 80%;
+  height: 30px;
+  padding: 4px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  background: rgba(12, 12, 12, 0.321);
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: whitesmoke;
+}
+
+select {
+  margin: auto;
+  display: block;
+  width: 80%;
+  height: 40px;
+  padding: 4px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  background: rgba(19, 19, 19, 0.423);
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+select option {
+  color: whitesmoke;
+}
+
+textarea {
+  width: 80%;
+  height: 200px;
+  border-radius: 4px;
+  background: rgba(8, 8, 8, 0.247);
+  color: whitesmoke;
+  margin: auto;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+button {
+  width: 80%;
+  margin: auto;
+  display: block;
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: rgb(27, 70, 244);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: rgba(21, 6, 36, 0.237);
+  color: whitesmoke;
+}
